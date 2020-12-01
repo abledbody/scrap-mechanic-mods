@@ -8,8 +8,8 @@ Airfoil.sleepTime = 5           -- how many updates it takes for a wing to fall 
 Airfoil.maxJerk = (72.0) / 40.0 -- lift change clamp in (N/tick/sec or 40N/s²) per (m/s) = 40*N/(m*s)
 Airfoil.maxVel = 600            -- velocity at which wings are turned off
 Airfoil.maxVelTimeout = 400     -- how long in ticks wings are shut off if they exceed max velocity
-Airfoil.stallAngle = 0.22
-Airfoil.stallTransition = 0.12
+Airfoil.stallAngle = 0.19
+Airfoil.stallTransition = 0.15
 Airfoil.stallLift = 0.4
 Airfoil.stallDrag = 0.02
 
